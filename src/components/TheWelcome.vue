@@ -17,9 +17,14 @@
           <v-card-text class="text-center">
             <div class="text-h4 mb-3">Hello!</div>
             <!-- Tombol untuk memunculkan pesan selamat datang -->
-            <v-btn @click="toggleGreeting" color="primary" class="elevation-12 rounded-full">
+            <v-btn @click="toggleGreeting" color="primary" class="elevation-12 rounded-full mb-4">
               Toggle Hello
             </v-btn>
+            <br/>
+            <!-- Tombol navigasi -->
+            <v-btn href="/dosen" color="secondary" class="mx-2">Dosen</v-btn>
+            <v-btn href="/mahasiswa" color="secondary" class="mx-2">Mahasiswa</v-btn>
+            <v-btn href="/ruangan" color="secondary" class="mx-2">Ruangan</v-btn>
           </v-card-text>
         </v-card>
         <!-- Snackbar untuk pesan selamat datang -->
@@ -49,7 +54,7 @@ const toggleGreeting = () => {
 
 <style scoped>
 .bg-gradient-to-r {
-  background: linear-gradient(to right, #2196F3, #9C27B0, #E91E63);
+  background: linear-gradient(to right, #2196f3, #9c27b0, #e91e63);
 }
 .rounded-xl {
   border-radius: 1.5rem;

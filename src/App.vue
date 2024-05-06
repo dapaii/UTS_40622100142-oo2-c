@@ -26,4 +26,7 @@ import LeftNav from '@/components/navbar/LeftNav.vue'
 .v-layout {
   display: block !important;
 }
+body{
+  background: linear-gradient(to right, #2196f3, #9c27b0, #e91e63);
+}
 </style>
