@@ -6,7 +6,7 @@
     <v-text-field v-model="mhs.nama" label="Nama" variant="outlined"></v-text-field>
     <v-text-field v-model="mhs.ipk" label="Ipk" variant="outlined"></v-text-field>
 
-    <v-btn @click="alertMhs" variant="outlined"> Submit </v-btn>
+    <v-btn @click="alertMhs" variant="outlined" block> Submit </v-btn>
     <!-- Models Database End-->
     <br />
     <br />

@@ -19,7 +19,7 @@ const vuetify = createVuetify({
 
 const app = createApp(App)
 
-app.use(store) // Added store to Vue app
+app.use(store) 
 app.use(router)
 app.use(vuetify)
 

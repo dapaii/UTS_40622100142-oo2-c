@@ -5,14 +5,14 @@
     <v-text-field v-model="ruangan.code" label="Kode Ruangan" variant="outlined"></v-text-field>
     <v-text-field v-model="ruangan.nama" label="Nama Ruangan" variant="outlined"></v-text-field>
 
-    <v-btn @click="alertDosen" variant="outlined"> Submit </v-btn>
+    <v-btn @click="alertDosen" variant="outlined" block> Submit </v-btn>
     <!-- Models Database End-->
     <br />
     <br />
 
     <!-- Tampilkan nilai hanya jika showNilai bernilai true -->
-    <p v-if="showNilai">code: {{ ruangan2.code }}</p>
-    <p v-if="showNilai">Nama: {{ ruangan2.nama }}</p>
+    <p v-if="showNilai">Kode Ruangan : {{ ruangan2.code }}</p>
+    <p v-if="showNilai">Nama Ruangan: {{ ruangan2.nama }}</p>
   </div>
 </template>
 
@@ -24,7 +24,7 @@ export default {
     return {
       count: 0,
       nilai: '',
-      ruangan: new Ruangan('1234', 'bambang', 3.4),
+      ruangan: new Ruangan('4123', 'Informatika'),
 
       showNilai: false,
       ruangan2: {}
