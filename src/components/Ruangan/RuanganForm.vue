@@ -22,19 +22,13 @@ import { Ruangan } from '@/model/Ruangan.ts'
 export default {
   data() {
     return {
-      count: 0,
-      nilai: '',
       ruangan: new Ruangan('4123', 'Informatika'),
-
       showNilai: false,
       ruangan2: {}
     }
   },
 
   methods: {
-    increment() {
-      this.count++
-    },
     rubahNilai() {
       this.nilai = ' Muhamad Daffa Khoerudin'
       setTimeout(() => {

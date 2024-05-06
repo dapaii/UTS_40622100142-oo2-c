@@ -32,19 +32,13 @@ import { Dosen } from '@/model/Dosen.ts'
 export default {
   data() {
     return {
-      count: 0,
-      nilai: '',
       dosen: new Dosen('1234', 'bambang', 3.4),
-
       showNilai: false,
       dosen2: {}
     }
   },
 
   methods: {
-    increment() {
-      this.count++
-    },
     rubahNilai() {
       this.nilai = ' Muhamad Daffa Khoerudin'
       setTimeout(() => {

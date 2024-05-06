@@ -5,7 +5,7 @@
         <!-- Card untuk konten utama -->
         <v-card class="mx-auto rounded-xl" outlined color="transparent" dark elevation="24">
           <v-card-title class="text-center">
-            <div class="text-h2 font-weight-black mb-3">Selamat Datang di Aplikasi</div>
+            <div class="text-h3 font-weight-black mb-3">Selamat Datang di Aplikasi</div>
           </v-card-title>
           <v-divider></v-divider>
           <v-card-text class="text-center">
